@@ -9,27 +9,22 @@ function questions() {
     {
       type: "input",
       name: "title",
-      message: "Project title?",
+      message: "<Your-Project-Title?>",
     },
     {
       type: "input",
       name: "description",
-      message: "Project title?",
-    },
-    {
-      type: "input",
-      name: "toc",
-      message: "Project title?",
+      message: "Provide a short description",
     },
     {
       type: "input",
       name: "install",
-      message: "Project title?",
+      message: "What are the steps required to install your project?",
     },
     {
       type: "input",
       name: "usage",
-      message: "Project title?",
+      message: "Provide instructions and examples for use.",
     },
     {
       type: "list",
@@ -40,17 +35,17 @@ function questions() {
     {
       type: "input",
       name: "contributing",
-      message: "Project title?",
+      message: "List your collaborators",
     },
     {
       type: "input",
       name: "tests",
-      message: "Project title?",
+      message: "Provide tests and examples for use.",
     },
     {
       type: "input",
       name: "questions",
-      message: "Project title?",
+      message: "How can you be reached?",
     },
   ]);
 }
@@ -58,14 +53,14 @@ function questions() {
 //function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log("READEME.md File Generated")
+    err ? console.error(err) : console.log("README.md File Generated")
   );
 }
 
 //function to initialize app
 async function init() {
   const userInput = await questions();
-  const fileName = "README.md";
+  const fileName = "newREADME.md";
   const readMe = await generateMarkdown(userInput);
   writeToFile(fileName, readMe);
 }
