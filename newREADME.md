@@ -1,8 +1,8 @@
 
-# asd
+# asdf
 
 ## Description
-asd
+asdf
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,20 +13,25 @@ asd
 - [Questions](#questions)
 
 ## Installation
-asd
+asdf
 
 ## Usage
-asd
+asdf
+
 
 ## License
-![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)
+
+![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
+
+Link to the license: (http://www.gnu.org/licenses/gpl-3.0)
+
 
 ## Contributing
-asd
+asdf
 
 ## Tests
-asd
+asdf
 
 ## Questions
-asd
+asdf
 
