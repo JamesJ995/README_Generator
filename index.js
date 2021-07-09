@@ -30,7 +30,7 @@ function questions() {
       type: "list",
       name: "license",
       message: "Chose license for project: ",
-      choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
+      choices: ["Apache", "Eclipse", "GNU", "IBM", "MIT", "Mozilla"],
     },
     {
       type: "input",
@@ -53,7 +53,7 @@ function questions() {
 //function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log("README.md File Generated")
+    err ? console.error(err) : console.log("File Created:\t newREADME.md")
   );
 }
 

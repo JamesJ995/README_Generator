@@ -1,30 +1,32 @@
 
-# README.md Generator
+# asd
 
 ## Description
-NODE.js application using inquirer to prompt a user for input then generate a new readme file for the user's project. Easy, lightweight way to generate a quality README.md on the fly.
+asd
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#Contributing)
 - [License](#license)
+- [Contributing](#Contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
-npm install 
+asd
 
 ## Usage
-At root: node index.js
+asd
 
 ## License
-undefined
+![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)
 
 ## Contributing
-James Johnson
+asd
 
 ## Tests
-N/A
+asd
 
 ## Questions
-mrjam7@gmail.com
+asd
 
