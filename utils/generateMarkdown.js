@@ -32,22 +32,22 @@ function renderLicenseLink(license) {
   let licenseLinkReturn;
   switch (license) {
     case "Apache":
-      licenseLinkReturn = `(https://opensource.org/licenses/Apache-2.0)`;
+      licenseLinkReturn = `https://opensource.org/licenses/Apache-2.0`;
       break;
     case "Eclipse":
-      licenseLinkReturn = `(https://opensource.org/licenses/EPL-1.0)`;
+      licenseLinkReturn = `https://opensource.org/licenses/EPL-1.0`;
       break;
     case "GNU":
-      licenseLinkReturn = `(http://www.gnu.org/licenses/gpl-3.0)`;
+      licenseLinkReturn = `http://www.gnu.org/licenses/gpl-3.0`;
       break;
     case "IBM":
-      licenseLinkReturn = `(https://opensource.org/licenses/IPL-1.0)`;
+      licenseLinkReturn = `https://opensource.org/licenses/IPL-1.0`;
       break;
     case "MIT":
-      licenseLinkReturn = `(https://opensource.org/licenses/MIT)`;
+      licenseLinkReturn = `https://opensource.org/licenses/MIT`;
       break;
     case "Mozilla":
-      licenseLinkReturn = `(https://opensource.org/licenses/MPL-2.0)`;
+      licenseLinkReturn = `https://opensource.org/licenses/MPL-2.0`;
       break;
     default:
       licenseLinkReturn = "";
