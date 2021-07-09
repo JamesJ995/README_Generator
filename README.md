@@ -16,7 +16,7 @@ npm install
 
 ## Usage
 At root: node index.js
-
+![READMEgen gif](https://user-images.githubusercontent.com/20030490/125021700-c7d3b000-e040-11eb-9714-0ae48ad9bafc.gif)
 
 ## License
 
